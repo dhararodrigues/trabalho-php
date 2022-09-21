@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #bcecbc;
+}
+
+.titulo{
+    text-align: center;
+    margin:3%;
+    height: 90px;
+    padding: 1%;
+}
+.topicos{
+    border-style: ridge;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #e4ffe0;
+}

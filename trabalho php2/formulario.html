@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="titulo">
+       <h1>Formulário para Abertura de Conta Bancária</h1> 
+    </div>
+    <div class="topicos">
+        <h2>Informe seus dados</h2>
+        <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome">
+            <p></p>
+            <label for="cpf">Seu CPF</label>
+            <input type="number" name="cpf">
+            <p></p>
+            <label for="email">E-mail</label>
+            <input type="text" name="email">
+            <p></p>
+            <label for="cel">Celular (DDD)</label>
+            <input type="number" name="cel"> 
+            <p></p>
+            <label for="endereço">Informe seu endereço</label>
+            <input type="text" name="endereço">
+            <p></p>
+            <label for="senha">Crie uma senha para sua conta</label>
+            <input type= "password" name= "senha">
+            <p></p>
+            <label for="senha">Confirme sua senha para sua conta</label>
+            <input type= "password" name= "senha">
+            <p></p>
+            <p>Caso queira criar um seguro para suas posses, informe abaixo:</p>
+            <label for="joias">Jóias</label>
+            <input type="checkbox" name= "joias">
+            <p></p>
+            <label for="carro">Carro(s)</label>
+            <input type="checkbox" name= "carro">
+            <p></p>
+            <label for="imovel">Imóvel(is)</label>
+            <input type="checkbox" name= "imovel">
+            <p></p>
+            <label for="empresa">Empresa</label>
+            <input type="checkbox" name= "empresa">
+            <p></p>
+            <label for="renda">Indique sua renda mensal</label>
+            <select name="periodo">
+                <option value="1">Até 1000,00</option>
+                <option value="2">1001,00 - 2500,00</option>
+                <option value="3">2501,00 - 3800,00</option>
+                <option value="4">3801,00 - 4500,00</option>
+                <option value="5">Mais de 4500,00</option>
+            </select>
+            <p></p>
+            <label for="credito">Deseja que seu aumento de crédito seja automático?</label>
+            <p></p>
+            Sim <input type="radio"  name="credito">
+            Não <input type="radio"  name= "credito">
+            <p></p>
+            <button type="submit">Salvar e enviar ;)</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
